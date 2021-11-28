@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+  }
+
+
+body{
+
+    background-color: rgb(202, 243, 245);
+    font-family: 'Press Start 2P', cursive;
+}
+
+.box{
+
+    background-color: whitesmoke;
+    width: 70%;
+    margin:auto;
+    border-radius: 20px;
+}
+.finances{
+
+    padding: 1rem;
+    margin: 2rem;
+    border-radius: 15px;
+}
+
+button{
+    background-color: teal;
+    border-radius: 5px;
+    color: whitesmoke;
+    width: 80%;
+    padding: .6rem;
+    
+
+
+}
+.result{
+    background-color: teal;
+    padding:5rem 1rem;
+    margin: 2rem;
+    border-radius: 15px;
+}
+
+
+.reset{
+    width: 80%;
+    margin:auto;
+    border-style: none;
+    background-color: rgb(15, 184, 184);
+}
+
+.customNumber{
+    width: 50%;
+    margin:auto;
+}
+
+#five{
+    background-color: rgb(209, 148, 57);
+    border: 3px solid black;
+}
+
+
+.orange{
+    background-color: rgb(209, 148, 57);
+    border: 3px solid black;
+}
+
+
+/*Range Wrap */
+
+
+.slider{
+    width: 100%;
+}
+
+.numberShower{
+    background-color: teal;
+    border-radius: 5px;
+    color: whitesmoke;
+    width: 80%;
+    padding: .6rem;
+    width: 20%;
+    margin: auto;
+}
