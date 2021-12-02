@@ -1,18 +1,18 @@
 
 
-var form = document.querySelector('.inputting');
+const form = document.querySelector('.inputting');
 
-var tip = document.querySelector('.tip-amount');
-var total = document.querySelector('.total');
-var button = document.querySelectorAll('.button');
-var custom = document.querySelector('#custom');
-var customNumber = document.querySelector('.customNumber');
-var reset = document.querySelector('.reset');
+const tip = document.querySelector('.tip-amount');
+const total = document.querySelector('.total');
+const button = document.querySelectorAll('.button');
+const custom = document.querySelector('#custom');
+const customNumber = document.querySelector('.customNumber');
+const reset = document.querySelector('.reset');
 
 
-var slideContainer = document.querySelector('.slidecontainer');
-var numberShower = document.querySelector('.numberShower')
-var slider = document.querySelector('.slider')
+const slideContainer = document.querySelector('.slidecontainer');
+const numberShower = document.querySelector('.numberShower')
+const slider = document.querySelector('.slider')
 
 
 
@@ -24,13 +24,13 @@ var slider = document.querySelector('.slider')
     butt.classList.add("orange");
 
 
-    var content = butt.innerHTML;
+    let content = butt.innerHTML;
  console.log(butt.innerHTML)
 
 
 
- var totalNumber = form.inputNumber.value;
- var tipPerPerson = form.person.value;
+ let totalNumber = form.inputNumber.value;
+ let tipPerPerson = form.person.value;
 
 
  if(content === '5%'){
@@ -80,8 +80,8 @@ form.addEventListener('keyup', e => {
     e.preventDefault();
 
     total.innerHTML = form.inputNumber.value;
-    var totalNumber = form.inputNumber.value
-    var tipPerPerson = form.person.value;
+    let totalNumber = form.inputNumber.value
+    let tipPerPerson = form.person.value;
   
         tip.innerHTML = (totalNumber*0.05/tipPerPerson).toFixed(1);
      
